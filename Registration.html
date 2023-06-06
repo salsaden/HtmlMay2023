@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="Static/CSS/formstyles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registration</title>
+</head>
+<body>
+<div class="container">
+  <h2>Registration</h2>
+  <form action="">
+    <div class="form-group">
+      <label for="username">Username</label>
+      <input type="text" id="username" name="username" placeholder="Username" required>
+    </div>
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="Email" placeholder="email" required>
+    </div>
+    <div class="formgroup">
+      <label for="male">Male</label>
+      <input type="radio" id="male"name="gender">
+      <label for="female">Female</label>
+      <input type="radio" id="female" name="gender">
+      <label for="custom">Custom</label>
+      <input type="radio" id="custom" name="gender">
+    </div>
+    <div class="form-group">
+            <label for="courses">Courses</label>
+              <select name="courses" id="courses">
+                <option value="">select a course</option>
+                <option value="js">javascript</option>
+                <option value="fullstack">fullstack</option>
+                <option value="datascience">datascience</option>
+                <option value="cyber security">cybersecurity</option>
+              </select>
+              </div>
+        <div class="form-group">
+            <label for="messages">Messages</label>
+            <textarea name="messages" id="messages" cols="40" rows="2"></textarea>
+        </div>
+    <div class="form-group">
+      <label for="dob">Date of Birth</label>
+      <input type="date" id="dob" name="Date of Birth" required>
+    </div>
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input type="password" id="password" name="Password" placeholder="Enter your Password" required>
+    </div>
+    <div class="form-group">
+      <label for="confirm password">Confirm Password</label>
+      <input type="password" id="confirm password" name="Confirm Password" placeholder="Confirm your password" required>
+    </div>
+    <div class="form-group">
+      <button type="submit">Register</button>
+    </div>
+  </form>
+</div>
+</body>
+</html>

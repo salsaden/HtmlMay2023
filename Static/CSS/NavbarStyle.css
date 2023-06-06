@@ -1,0 +1,78 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #50d5b2;
+}
+li{
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+li,a{
+    padding: 20px;
+
+}
+li:hover{
+    background-color: #e7cb10;
+}
+.fruits{
+    background-color: aquamarine;
+    border: 2px solid red;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    color: #6c3c3c;
+}
+.cars{
+    background-color: darksalmon;
+    border: 4px dashed blue;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    color: yellow;
+    font-family: Keraleeyam;
+
+}
+.cars:hover{
+    background-color: orchid;
+}
+.Fruits{
+     background-color: #773f3f;
+    border: 1px dashed lemonchiffon;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    color: lime;
+    font-family: "Noto Mono";
+}
+img{
+    border: 2px dashed black;
+    padding: 20px;
+
+}
+img:hover{
+    background-color: green;
+}
+#matunda{
+    background-color: #7882e7;
+    border: 5px dotted orange;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+#magari{
+    background-color: #06e5aa;
+    border: 4px double #67252d;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    font-family: Dialog;
+    font-style: italic;
+
+}
+#magari:hover{
+    background-color: fuchsia;
+}
